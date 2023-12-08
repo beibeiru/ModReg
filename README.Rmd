@@ -53,3 +53,11 @@ plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+
+
+## Tutorial
+* [Cell type deconvolution and interaction analysis](https://data2intelligence.github.io/SpaCET/articles/visium_BC.html)  
+* [Deconvolution with a matched scRNA-seq data set](https://data2intelligence.github.io/SpaCET/articles/oldST_PDAC.html)
+
+## Citation
+Beibei Ru, Jianlong Sun, Qingzheng Kang, Yin Tong, Jiangwen Zhang. A framework for identifying dysregulated chromatin regulators as master regulators in human cancer. Bioinformatics. 2019; 35(11):1805-1812. [<a href="https://academic.oup.com/bioinformatics/article/35/11/1805/5144669" target="_blank">Link</a>]
