@@ -18,7 +18,7 @@ NFE2L2 and its targets, as shown in the tutorial below.
 
 ## Installation
 
-You can install the development version of ModReg from
+You can install the development version of `ModReg` from
 [GitHub](https://github.com/beibeiru/ModReg) with:
 
 ``` r
@@ -29,7 +29,8 @@ devtools::install_github("beibeiru/ModReg")
 ## Tutorial
 
 This example shows how to infer the modulation relation between SIRT7
-and NFE2L2 using the TCGA liver cancer dataset.
+and NFE2L2 using the TCGA liver cancer dataset. Also, two visualization
+functions are designed to present the output of `ModReg` package.
 
 ### Run ModReg function
 

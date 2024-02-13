@@ -19,7 +19,7 @@ The goal of ModReg is to infer whether a modulator activates or inhibits the act
 
 ## Installation
 
-You can install the development version of ModReg from [GitHub](https://github.com/beibeiru/ModReg) with:
+You can install the development version of `ModReg` from [GitHub](https://github.com/beibeiru/ModReg) with:
 
 ``` r
 # install.packages("devtools")
@@ -28,7 +28,7 @@ devtools::install_github("beibeiru/ModReg")
 
 ## Tutorial
 
-This example shows how to infer the modulation relation between SIRT7 and NFE2L2 using the TCGA liver cancer dataset. 
+This example shows how to infer the modulation relation between SIRT7 and NFE2L2 using the TCGA liver cancer dataset. Also, two visualization functions are designed to present the output of `ModReg` package.
 
 ### Run ModReg function
 
