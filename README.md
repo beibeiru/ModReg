@@ -7,9 +7,9 @@ The goal of ModReg is to infer whether a modulator activates or inhibits
 the activity of a regulator. The hypothesis here is that if a modulator
 can control the function of a regulator, the modulator’s expression
 level would affect the correlation between the regulator and its
-targets. For example, chromatin factors can dynamically modulate the
-chromatin architecture to affect the function of transcription factors
-in response to intrinsic and extrinsic signalling cues. In our
+targets. For example, chromatin factors can modulate the chromatin
+architecture to affect the function of transcription factors in response
+to intrinsic and extrinsic signalling cues. In our
 <a href="https://academic.oup.com/bioinformatics/article/35/11/1805/5144669" target="_blank">study</a>,
 we found that SIRT7 is able to activate the activity of NFE2L2 in liver
 cancer because high levels of SIRT7 expression can result in more strong
@@ -29,7 +29,7 @@ devtools::install_github("beibeiru/ModReg")
 ## Tutorial
 
 This example shows how to infer the modulation relation between SIRT7
-and NFE2L2 using the TCGA liver cancer dataset.
+and NFE2L2 using the TCGA LIHC dataset.
 
     library(ModReg)
 
