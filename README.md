@@ -11,10 +11,10 @@ targets. For example, chromatin factors can modulate the chromatin
 architecture to affect the function of transcription factors in response
 to intrinsic and extrinsic signalling cues. In our
 <a href="https://academic.oup.com/bioinformatics/article/35/11/1805/5144669" target="_blank">study</a>,
-we found that SIRT7 is able to activate the activity of NFE2L2 in liver
-cancer because high levels of SIRT7 expression can result in more strong
-correlations between NFE2L2 and its targets, as shown in the tutorial
-below.
+we found that SIRT7, a type of histone deacetylase, is able to activate
+the activity of transcription factor NFE2L2 in liver cancer because high
+levels of SIRT7 expression can result in stronger correlations between
+NFE2L2 and its targets, as shown in the tutorial below.
 
 ## Installation
 
@@ -29,7 +29,9 @@ devtools::install_github("beibeiru/ModReg")
 ## Tutorial
 
 This example shows how to infer the modulation relation between SIRT7
-and NFE2L2 using the TCGA LIHC dataset.
+and NFE2L2 using the TCGA liver cancer dataset.
+
+### Run ModReg function
 
     library(ModReg)
 
